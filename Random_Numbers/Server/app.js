@@ -22,7 +22,7 @@ app.use('/api', route);
 
 
 mongoose.connect(
-    'mongodb+srv://Madhusudan:15717@cluster0.ssc3h.mongodb.net/Random-Number?retryWrites=true&w=majority', 
+    'mongodb+srv:', 
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
